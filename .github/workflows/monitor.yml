@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '3,13,23,33,43,53 * * * *'
   workflow_dispatch:
+    inputs:
+      notify_test:
+        description: Send a cloud delivery test
+        type: boolean
+        required: false
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -20,6 +26,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TEST_NOTIFICATION: ${{ inputs.notify_test && '1' || '0' }}
         run: python3 cloud_monitor.py
       - name: Save hashes for the next comparison
         run: |

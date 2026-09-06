@@ -86,6 +86,11 @@ def email_send(user,password,content):
 
 def main():
     token=os.environ['CANVAS_TOKEN']; webhook=os.getenv('DISCORD_WEBHOOK',''); gmail=os.getenv('GMAIL_ADDRESS',''); apppw=os.getenv('GMAIL_APP_PASSWORD','')
+    if os.getenv('TEST_NOTIFICATION')=='1':
+        stamp=datetime.now(KST).strftime('%Y-%m-%d %H:%M')
+        content=f'☁️ 중부대 LMS 클라우드 알림 테스트 성공\nGitHub 서버에서 전송했습니다.\n확인 시각: {stamp} 한국시간\n앞으로 PC와 Codex가 꺼져 있어도 10분마다 확인합니다.'
+        result={'discord':discord(webhook,content),'email':email_send(gmail,apppw,content)}
+        print(json.dumps(result));return
     state=json.loads(STATE.read_text()) if STATE.exists() else {'version':1,'items':{},'deliveries':{}}
     items,errors=collect(token); first=not state['items']; alerts=[]
     current={}
