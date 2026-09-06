@@ -78,7 +78,13 @@
       }
     },
     "c275f812e5d172d8e37eb80ac5d3a36bdf141e9df07f491698ff7d1c7160de40": {},
-    "ca3f35aead98e3dda68cbfdf4c36039800f09b8d9c767cbbc771080099d70a31": {},
+    "ca3f35aead98e3dda68cbfdf4c36039800f09b8d9c767cbbc771080099d70a31": {
+      "7": {
+        "complete": true,
+        "discord": "1546204641174224973",
+        "email": "sent"
+      }
+    },
     "dbc84c3c92ca8314476478f7837d07464e5e1036a840d7086db5dbfde510e3cc": {},
     "dda8384c9a568f1fb8c9cc29098d3108da65b64d4c7cfb1b9cd0f7509cfed7fd": {},
     "e6ae41ff0148c9495e03088ae26af28ea95235d627fcb3f0e76a837ba32c4584": {},
