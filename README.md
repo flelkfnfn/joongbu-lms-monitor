@@ -1,6 +1,6 @@
 # Joongbu LMS monitor
 
-Runs every 10 minutes on GitHub Actions and sends new or changed Canvas announcements and assignments to Discord and optionally Gmail. Repository code and `state.json` contain no LMS token, webhook, message body, title, course name, or email credential. `state.json` stores resource IDs and SHA-256 fingerprints only.
+Runs hourly on GitHub Actions and sends new or changed Canvas announcements and assignments to Discord and Gmail. For assignments with a due date, it also sends one reminder when the remaining time first falls within 7, 4, 2, and 1 day. Submitted assignments and expired items are excluded. If an assignment first appears inside a reminder window, only the nearest applicable reminder is sent instead of sending every older threshold at once. Repository code and `state.json` contain no LMS token, webhook, message body, title, course name, or email credential. `state.json` stores resource IDs, delivery IDs, and SHA-256 fingerprints only.
 
 Required repository secrets: `CANVAS_TOKEN`, `DISCORD_WEBHOOK`. Optional Gmail secrets: `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`.
 

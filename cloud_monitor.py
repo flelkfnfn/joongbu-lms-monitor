@@ -71,6 +71,21 @@ def message(item,change):
     state=' (제출됨)' if item.get('submission_state')=='submitted' else ''
     return f"[{item['course']}] {kind} {'수정' if change=='updated' else '새 등록'}\n{item['title']}{state}\n기한: {format_due(item.get('due_at'))}\n{body or '본문 없음 — 원문 확인 필요'}\n{item['url']}"
 
+def reminder_threshold(item, sent):
+    if item.get('kind')!='assignment' or not item.get('due_at') or item.get('submission_state')=='submitted': return None
+    due=datetime.fromisoformat(item['due_at'].replace('Z','+00:00'))
+    remaining=(due-datetime.now(timezone.utc)).total_seconds()
+    if remaining<=0:return None
+    reached=[days for days in (7,4,2,1) if remaining<=days*86400]
+    incomplete=[days for days in reached if str(days) in sent and not sent[str(days)].get('complete')]
+    if incomplete:return max(incomplete)
+    eligible=[days for days in reached if str(days) not in sent]
+    return min(eligible) if eligible else None
+
+def reminder_message(item,days):
+    body=re.sub(r'\s+',' ',item['body'])[:500]
+    return f"⏰ [{item['course']}] 마감 {days}일 전 알림\n{item['title']}\n기한: {format_due(item['due_at'])}\n{body or '본문 없음 — 원문 확인 필요'}\n{item['url']}"
+
 def discord(webhook,content):
     if not webhook:return None
     if not re.fullmatch(r'https://discord\.com/api/webhooks/\d+/[A-Za-z0-9_-]+',webhook): raise RuntimeError('invalid webhook')
@@ -88,17 +103,18 @@ def main():
     token=os.environ['CANVAS_TOKEN']; webhook=os.getenv('DISCORD_WEBHOOK',''); gmail=os.getenv('GMAIL_ADDRESS',''); apppw=os.getenv('GMAIL_APP_PASSWORD','')
     if os.getenv('TEST_NOTIFICATION')=='1':
         stamp=datetime.now(KST).strftime('%Y-%m-%d %H:%M')
-        content=f'☁️ 중부대 LMS 클라우드 알림 테스트 성공\nGitHub 서버에서 전송했습니다.\n확인 시각: {stamp} 한국시간\n앞으로 PC와 Codex가 꺼져 있어도 10분마다 확인합니다.'
+        content=f'☁️ 중부대 LMS 클라우드 알림 테스트 성공\nGitHub 서버에서 전송했습니다.\n확인 시각: {stamp} 한국시간\n앞으로 PC와 Codex가 꺼져 있어도 1시간마다 확인합니다.'
         result={'discord':discord(webhook,content),'email':email_send(gmail,apppw,content)}
         print(json.dumps(result));return
-    state=json.loads(STATE.read_text()) if STATE.exists() else {'version':1,'items':{},'deliveries':{}}
+    state=json.loads(STATE.read_text()) if STATE.exists() else {'version':1,'items':{},'deliveries':{},'reminders':{}}
+    state.setdefault('reminders',{})
     items,errors=collect(token); first=not state['items']; alerts=[]
     current={}
     for i in items:
         key=f"{i['course_id']}:{i['kind']}:{i['id']}"; old=state['items'].get(key); current[key]=i['fingerprint']
         if not first and old!=i['fingerprint']:alerts.append((key,i,'new' if old is None else 'updated'))
     state['items']=current
-    # One small monthly change keeps GitHub scheduled workflows active without a commit every 10 minutes.
+    # One small monthly change keeps GitHub scheduled workflows active without a commit every hour.
     state['heartbeat_month']=datetime.now(timezone.utc).strftime('%Y-%m')
     for key,item,change in alerts:
         event=key+':'+item['fingerprint']; delivery=state['deliveries'].setdefault(event,{})
@@ -106,7 +122,20 @@ def main():
         if webhook and not delivery.get('discord'):delivery['discord']=discord(webhook,content)
         if gmail and apppw and not delivery.get('email'):delivery['email']=email_send(gmail,apppw,content)
         delivery['complete']=(not webhook or bool(delivery.get('discord'))) and (not(gmail and apppw) or bool(delivery.get('email')))
+    for item in items:
+        key=f"{item['course_id']}:{item['kind']}:{item['id']}"
+        due_key=hashlib.sha256((key+'|'+str(item.get('due_at'))).encode()).hexdigest()
+        sent=state['reminders'].setdefault(due_key,{})
+        days=reminder_threshold(item,sent)
+        if days is None:continue
+        delivery=sent.setdefault(str(days),{})
+        content=reminder_message(item,days)
+        if webhook and not delivery.get('discord'):delivery['discord']=discord(webhook,content)
+        if gmail and apppw and not delivery.get('email'):delivery['email']=email_send(gmail,apppw,content)
+        delivery['complete']=(not webhook or bool(delivery.get('discord'))) and (not(gmail and apppw) or bool(delivery.get('email')))
     state['deliveries']={k:v for k,v in state['deliveries'].items() if not v.get('complete')}
+    active_due_keys={hashlib.sha256((f"{i['course_id']}:{i['kind']}:{i['id']}|{i.get('due_at')}").encode()).hexdigest() for i in items if i.get('due_at')}
+    state['reminders']={k:v for k,v in state['reminders'].items() if k in active_due_keys}
     STATE.write_text(json.dumps(state,indent=2,sort_keys=True),encoding='utf-8')
     print(json.dumps({'checked_at':datetime.now(timezone.utc).isoformat(),'courses':len({i['course_id'] for i in items}),'items':len(items),'alerts':len(alerts),'errors':errors}))
 
