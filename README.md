@@ -7,3 +7,5 @@ Required repository secrets: `CANVAS_TOKEN`, `DISCORD_WEBHOOK`. Optional Gmail s
 The first successful run creates a baseline without sending old items. Later runs notify on new items or changes to title, body, due date, lock date, or submission type. Delivery status remains only until all configured channels succeed. The workflow uses only GET requests to the Canvas API. LearningX external boards/resources are outside this cloud monitor.
 
 GitHub may delay scheduled jobs during heavy load. The schedule is polling, not an instant webhook. The LMS token expires on 2027-01-01 and must then be replaced.
+
+`state.json` changes only when LMS fingerprints change or once per month for a keepalive, so the workflow does not create a commit every 10 minutes.

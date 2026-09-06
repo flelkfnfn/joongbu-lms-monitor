@@ -97,7 +97,9 @@ def main():
     for i in items:
         key=f"{i['course_id']}:{i['kind']}:{i['id']}"; old=state['items'].get(key); current[key]=i['fingerprint']
         if not first and old!=i['fingerprint']:alerts.append((key,i,'new' if old is None else 'updated'))
-    state['items']=current; state['last_check']=datetime.now(timezone.utc).isoformat();state['errors']=errors
+    state['items']=current
+    # One small monthly change keeps GitHub scheduled workflows active without a commit every 10 minutes.
+    state['heartbeat_month']=datetime.now(timezone.utc).strftime('%Y-%m')
     for key,item,change in alerts:
         event=key+':'+item['fingerprint']; delivery=state['deliveries'].setdefault(event,{})
         content=message(item,change)
@@ -106,6 +108,6 @@ def main():
         delivery['complete']=(not webhook or bool(delivery.get('discord'))) and (not(gmail and apppw) or bool(delivery.get('email')))
     state['deliveries']={k:v for k,v in state['deliveries'].items() if not v.get('complete')}
     STATE.write_text(json.dumps(state,indent=2,sort_keys=True),encoding='utf-8')
-    print(json.dumps({'courses':len(courses) if False else len({i['course_id'] for i in items}),'items':len(items),'alerts':len(alerts),'errors':errors}))
+    print(json.dumps({'checked_at':datetime.now(timezone.utc).isoformat(),'courses':len({i['course_id'] for i in items}),'items':len(items),'alerts':len(alerts),'errors':errors}))
 
 if __name__=='__main__':main()
