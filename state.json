@@ -45,5 +45,44 @@
     "43149:assignment:716182": "4555a1e44b36bc8d90b396c0bcf5ef8e22e95a358fee7fca2739315156b7fdfb"
   },
   "last_check": "2026-09-06T13:38:44.898230+00:00",
+  "reminders": {
+    "06c76733959ec7809c5b24a51275495d8e4a3e57017ccf4f7a08fb7336119ba5": {},
+    "226b549e272d2834a5269616ec7fc6b8917f40345a1c6b2d697e2ec196cd4944": {
+      "1": {
+        "complete": true,
+        "discord": "1546158067966804069",
+        "email": "sent"
+      }
+    },
+    "24a0d1d351f3bc633efc676d17a45ebbf6528dad72242876b77336360c1f9eb7": {},
+    "344a27d7fbb7cc69a08bdc533659eaad4fec7805faa8fe1c48234325fe3f42e5": {
+      "1": {
+        "complete": true,
+        "discord": "1546158046278066176",
+        "email": "sent"
+      }
+    },
+    "37ee15e9116c0294b4a6d3048e8a65acfb91dbe85abbef432f47303e788b6952": {},
+    "532d08bd9eb63e374833d82d09c54f2909950d1d10d4e24430b503315b965702": {},
+    "6ef066175410223b90b533e79a7d4808d43f847b36b432edd6cef68f9fe4199f": {},
+    "7a02239cbe4c2f649a6bfc8c14cfd50024b36757f2035ec4b6a2e768e9e34905": {},
+    "7aaa445fba1d066a87270a6352e4bd15b686985902214148207c996a3d2bcb6a": {},
+    "818330775a7e52a0fde6bee14f9526ce5f9ea6e39efd2cd917325d6a6a09785a": {},
+    "85bab23c4a33dc4afcd6e5346d4bed3bd4e0c6ecfc4e24b598f84bbc8cf09abf": {},
+    "8d8ee9b7b9d02b0d26b49660da715e7c763b4381bd0301eb0356f7f5a49de312": {},
+    "b627ef63050c5d7dd4733b1652850473bf8724ba45ac61bd14991765163bb8f1": {
+      "1": {
+        "complete": true,
+        "discord": "1546158054146449600",
+        "email": "sent"
+      }
+    },
+    "c275f812e5d172d8e37eb80ac5d3a36bdf141e9df07f491698ff7d1c7160de40": {},
+    "ca3f35aead98e3dda68cbfdf4c36039800f09b8d9c767cbbc771080099d70a31": {},
+    "dbc84c3c92ca8314476478f7837d07464e5e1036a840d7086db5dbfde510e3cc": {},
+    "dda8384c9a568f1fb8c9cc29098d3108da65b64d4c7cfb1b9cd0f7509cfed7fd": {},
+    "e6ae41ff0148c9495e03088ae26af28ea95235d627fcb3f0e76a837ba32c4584": {},
+    "eaaa2e967e861e9854076a35834e2849d60058105c4e0a285645b2e65259540a": {}
+  },
   "version": 1
 }
