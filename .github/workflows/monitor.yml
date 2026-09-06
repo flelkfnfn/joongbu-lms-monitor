@@ -1,0 +1,30 @@
+name: LMS monitor
+on:
+  schedule:
+    - cron: '3,13,23,33,43,53 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: lms-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check LMS and send alerts
+        env:
+          CANVAS_TOKEN: ${{ secrets.CANVAS_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python3 cloud_monitor.py
+      - name: Save hashes for the next comparison
+        run: |
+          git config user.name lms-monitor
+          git config user.email lms-monitor@users.noreply.github.com
+          git add state.json
+          git diff --cached --quiet || git commit -m "Update LMS fingerprints"
+          git push
