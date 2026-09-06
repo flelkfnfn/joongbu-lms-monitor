@@ -1,6 +1,7 @@
 import hashlib, html, json, os, re, smtplib, ssl, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone, timedelta
 from email.message import EmailMessage
+from email.utils import formataddr
 from pathlib import Path
 
 BASE='https://ccanvas.joongbu.ac.kr'
@@ -89,13 +90,13 @@ def reminder_message(item,days):
 def discord(webhook,content):
     if not webhook:return None
     if not re.fullmatch(r'https://discord\.com/api/webhooks/\d+/[A-Za-z0-9_-]+',webhook): raise RuntimeError('invalid webhook')
-    body=json.dumps({'content':content[:2000],'username':'중부대 LMS 알림','allowed_mentions':{'parse':[]}},ensure_ascii=False).encode()
+    body=json.dumps({'content':content[:2000],'username':'중부대 LMS 알림 codex','allowed_mentions':{'parse':[]}},ensure_ascii=False).encode()
     req=urllib.request.Request(webhook+'?wait=true',data=body,headers={'Content-Type':'application/json','User-Agent':'JoongbuLMSMonitor/1.0'},method='POST')
     with urllib.request.build_opener(NoRedirect()).open(req,timeout=30) as r:return json.loads(r.read())['id']
 
 def email_send(user,password,content):
     if not user or not password:return None
-    msg=EmailMessage();msg['From']=user;msg['To']=user;msg['Subject']='[중부대 LMS] 새 공지·과제 알림';msg.set_content(content)
+    msg=EmailMessage();msg['From']=formataddr(('중부대 LMS 알림 codex',user));msg['To']=user;msg['Subject']='[중부대 LMS] 새 공지·과제 알림';msg.set_content(content)
     with smtplib.SMTP_SSL('smtp.gmail.com',465,context=ssl.create_default_context(),timeout=30) as s:s.login(user,password);s.send_message(msg)
     return 'sent'
 
