@@ -66,6 +66,11 @@
   "last_check": "2026-09-06T13:38:44.898230+00:00",
   "reminders": {
     "02a3c520c80b6be6eeb49f4a24054e172ca4e4b6c0b9b9d0386250248707290d": {
+      "2": {
+        "complete": true,
+        "discord": "1550543495612211230",
+        "email": "sent"
+      },
       "4": {
         "complete": true,
         "discord": "1549827142190370816",
@@ -129,6 +134,11 @@
     "685664efb1dba82c00b63ce2c6a0d80e3fc20c19f3bddb9101e88bd8f456e362": {},
     "6ef066175410223b90b533e79a7d4808d43f847b36b432edd6cef68f9fe4199f": {},
     "72f7be610265992173a4095f45fd39425b4253d6a96f7ed794f49805a48da9a3": {
+      "2": {
+        "complete": true,
+        "discord": "1550543508471947388",
+        "email": "sent"
+      },
       "4": {
         "complete": true,
         "discord": "1549827153867317403",
@@ -218,6 +228,11 @@
       }
     },
     "d381e49b5ae63cf05c6a0e5fd30c662888bc9b43159e8c7f93f33db4155dfcc6": {
+      "2": {
+        "complete": true,
+        "discord": "1550543502490730586",
+        "email": "sent"
+      },
       "4": {
         "complete": true,
         "discord": "1549827148406071376",
