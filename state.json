@@ -48,6 +48,7 @@
     "43149:announcement:110718": "3da037c74bc5396867a40352763a2c45fd863c52485f114e61405d6217f7feed",
     "43149:announcement:111329": "e8dd08cc3ace0a12a9106885cd9021ff32739d67b5e74d5f39b61c0e692c5c84",
     "43149:announcement:111335": "018c8a5ae32a4f913c627e236176d04f24e3e77c941c17290675b63e3a3dea76",
+    "43149:announcement:112060": "c49f80553096b400115be4122a2fc1bb911eae3a31693bc0e7f4bea118add9ab",
     "43149:assignment:713993": "5c3c9fd1679e95d97f5c58b11aeace614c02c78f9c8a686654229883975a2970",
     "43149:assignment:713994": "a914a0667adc4a2c50f29a1f39bbf4c226baa91f11a8ff99e871aa2dc64af18d",
     "43149:assignment:713995": "f8ae7e6b5ad82cfff730878353314acf3c4bc5e564fda6a2a52674d400c17855",
@@ -122,7 +123,13 @@
         "email": "sent"
       }
     },
-    "24a0d1d351f3bc633efc676d17a45ebbf6528dad72242876b77336360c1f9eb7": {},
+    "24a0d1d351f3bc633efc676d17a45ebbf6528dad72242876b77336360c1f9eb7": {
+      "7": {
+        "complete": true,
+        "discord": "1551274169549983814",
+        "email": "sent"
+      }
+    },
     "2dc981dbd1111c5a94274769ea77795befaecfb36e56d90e1e551ba1117a3b34": {
       "7": {
         "complete": true,
@@ -137,8 +144,20 @@
         "email": "sent"
       }
     },
-    "354a4c0d12f33a4dcfea6301922c0626af6e130f4b2f3121d8fafab6de445a6b": {},
-    "532d08bd9eb63e374833d82d09c54f2909950d1d10d4e24430b503315b965702": {},
+    "354a4c0d12f33a4dcfea6301922c0626af6e130f4b2f3121d8fafab6de445a6b": {
+      "7": {
+        "complete": true,
+        "discord": "1551274158846115880",
+        "email": "sent"
+      }
+    },
+    "532d08bd9eb63e374833d82d09c54f2909950d1d10d4e24430b503315b965702": {
+      "7": {
+        "complete": true,
+        "discord": "1551274164030152875",
+        "email": "sent"
+      }
+    },
     "56552e3e870602410a4d6e5be45e17d801b3ffd8a46b772247ab48ca13fab41a": {},
     "5b232d2989fad8b30649e45e6c10f0a75045a99d7c1dd693015b61103aaaa51b": {
       "7": {
@@ -173,7 +192,13 @@
     },
     "7a02239cbe4c2f649a6bfc8c14cfd50024b36757f2035ec4b6a2e768e9e34905": {},
     "7aaa445fba1d066a87270a6352e4bd15b686985902214148207c996a3d2bcb6a": {},
-    "80602b70ffe2799c52a899282751aabe3b1381a9f3e2f015fde99479037a592b": {},
+    "80602b70ffe2799c52a899282751aabe3b1381a9f3e2f015fde99479037a592b": {
+      "7": {
+        "complete": true,
+        "discord": "1551274141082976367",
+        "email": "sent"
+      }
+    },
     "806d2a1f3e516018bed62c9fc33417f0398b854507cb2013c65edabc1792ac98": {
       "2": {
         "complete": true,
@@ -192,9 +217,21 @@
       }
     },
     "818330775a7e52a0fde6bee14f9526ce5f9ea6e39efd2cd917325d6a6a09785a": {},
-    "85bab23c4a33dc4afcd6e5346d4bed3bd4e0c6ecfc4e24b598f84bbc8cf09abf": {},
+    "85bab23c4a33dc4afcd6e5346d4bed3bd4e0c6ecfc4e24b598f84bbc8cf09abf": {
+      "7": {
+        "complete": true,
+        "discord": "1551274176084709546",
+        "email": "sent"
+      }
+    },
     "8d8ee9b7b9d02b0d26b49660da715e7c763b4381bd0301eb0356f7f5a49de312": {},
-    "ae773d2d8a85dc9371b4436b014aec6e37b0ca0439c4c539581992b4e2d269e2": {},
+    "ae773d2d8a85dc9371b4436b014aec6e37b0ca0439c4c539581992b4e2d269e2": {
+      "7": {
+        "complete": true,
+        "discord": "1551274146413944852",
+        "email": "sent"
+      }
+    },
     "b627ef63050c5d7dd4733b1652850473bf8724ba45ac61bd14991765163bb8f1": {
       "1": {
         "complete": true,
@@ -297,8 +334,20 @@
     },
     "e6ae41ff0148c9495e03088ae26af28ea95235d627fcb3f0e76a837ba32c4584": {},
     "eaaa2e967e861e9854076a35834e2849d60058105c4e0a285645b2e65259540a": {},
-    "ecf6f490404782eb93a315a8ef2ff2f836b99dd81459a953200fc0f05f8c2f3b": {},
-    "edfb705aed8c3df0647446a9b03bf7d6277604295071a52a045c30a217d2a086": {},
+    "ecf6f490404782eb93a315a8ef2ff2f836b99dd81459a953200fc0f05f8c2f3b": {
+      "7": {
+        "complete": true,
+        "discord": "1551274134032617653",
+        "email": "sent"
+      }
+    },
+    "edfb705aed8c3df0647446a9b03bf7d6277604295071a52a045c30a217d2a086": {
+      "7": {
+        "complete": true,
+        "discord": "1551274152973959218",
+        "email": "sent"
+      }
+    },
     "ee174335865ba4a7a5107495608da1623541bcea262f76421dc67fa66a949437": {}
   },
   "version": 1
