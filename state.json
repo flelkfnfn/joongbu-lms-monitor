@@ -253,7 +253,13 @@
         "email": "sent"
       }
     },
-    "45ddb54dffc1bae1d121f7782d0a6423dbd338e7a534dcf806df2640b0deede3": {},
+    "45ddb54dffc1bae1d121f7782d0a6423dbd338e7a534dcf806df2640b0deede3": {
+      "7": {
+        "complete": true,
+        "discord": "1556698243784642751",
+        "email": "sent"
+      }
+    },
     "4639fa06cd777817ae811cfee405a29b8506843536e963cfd6dcd28f628a208b": {},
     "532d08bd9eb63e374833d82d09c54f2909950d1d10d4e24430b503315b965702": {
       "1": {
