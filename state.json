@@ -85,6 +85,7 @@
     "43149:assignment:718039": "c7f3dc29c21f2c5d479710fe8c9c924e8889371452a9612df5ff3dc52f0bd611",
     "43149:assignment:718430": "a5d2609f7e972eaa84aa906a2b148512f1cd9c1d0b5ae2bf622204a29da84574",
     "43149:assignment:722337": "d3c500e6d10ef1319bb39c19adb3398479d8a47a3ce1ef7efc9c9159586690a6",
+    "43149:assignment:725533": "4a6c7078275279a16d64e0cd6f7407105721dada09690a61b95c501d6a0d8b1a",
     "43598:assignment:714532": "38acb8b9560a03d6fc42a093c1a0e3d2d7ba677847cedecccbfd7a4bacec3071",
     "43598:assignment:714533": "7ef981a2e0bd284bb36c997138152718c660a48fe0b6279b43045305a2473c0a",
     "43598:assignment:714534": "17791b6df9c788449a5b2b5e83ee3bfa100ff199c16a89111159d34a336cb16b",
@@ -284,6 +285,11 @@
       }
     },
     "56552e3e870602410a4d6e5be45e17d801b3ffd8a46b772247ab48ca13fab41a": {
+      "2": {
+        "complete": true,
+        "discord": "1557078234443554923",
+        "email": "sent"
+      },
       "4": {
         "complete": true,
         "discord": "1556359481355407472",
@@ -428,6 +434,13 @@
       }
     },
     "8d8ee9b7b9d02b0d26b49660da715e7c763b4381bd0301eb0356f7f5a49de312": {},
+    "a259a98c7aa1c7875128dc411b2889fe9f8abd045b09ba1c1b83ccf9746eb784": {
+      "7": {
+        "complete": true,
+        "discord": "1557078240533684404",
+        "email": "sent"
+      }
+    },
     "a38304a02b7fb65646ae439fa301a1745254065f7b239876bab529500d8afdc3": {},
     "a9ae9bee71377c09e506babbfb48beaaa0840d5d877c2bf3b1bfc0724322eab6": {
       "2": {
