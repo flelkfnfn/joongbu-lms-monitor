@@ -69,6 +69,9 @@
     "41998:assignment:725829": "1cd17b3551efd07baa768d586c243c7d29eb59a753d2161e9005abbf80954d39",
     "41998:assignment:725835": "92f43746f33407bcee8f102ea98b88282e20fe1cecb9703288cbb751fa2db9da",
     "41998:assignment:725836": "1ddfcf5393f384032ecfa644eddb42492768b573c55b329ba1b97d399a8ec8d4",
+    "41998:assignment:727559": "96adf7a62b91f473821ab0fc48ec25626dcd6477e49c219c991f80b41734df24",
+    "41998:assignment:727560": "b8b13d6ab73aae54ba8dce065dd1adda32199dcbf165ee52aff27ef0b08cc6ee",
+    "41998:assignment:727561": "8f916a11c24d4dfe184f84af662867da563b3d7c0c0c51734307850ae7842b92",
     "43149:announcement:110718": "3da037c74bc5396867a40352763a2c45fd863c52485f114e61405d6217f7feed",
     "43149:announcement:111329": "e8dd08cc3ace0a12a9106885cd9021ff32739d67b5e74d5f39b61c0e692c5c84",
     "43149:announcement:111335": "018c8a5ae32a4f913c627e236176d04f24e3e77c941c17290675b63e3a3dea76",
@@ -100,7 +103,12 @@
     "43598:assignment:718267": "c3d734bd5f587bf538eba9f90806edc694a599567e092e82a47ca33cde21aa47",
     "43598:assignment:722716": "f4c4f97f9a8f35ad0d033df4e8bc904702fbdc88e77889b321367f29b3223045",
     "44403:announcement:111611": "14b9c21c779abfd7df301bed5f96dce22aa9481575bc05876692a1decffaf24b",
-    "44403:assignment:717567": "5b2a926dc93c3c05095cb8013cfbbb0e1ff3fd7e5787d91bcbacbf026e2daee7"
+    "44403:assignment:717567": "5b2a926dc93c3c05095cb8013cfbbb0e1ff3fd7e5787d91bcbacbf026e2daee7",
+    "44409:assignment:723982": "5c6f7acc09ce0a9bf124529af2a7db3951652653d0d90b3d49e1986defc405e6",
+    "44409:assignment:723983": "fdf6baae435790ea506e39bfc3d3e0d7d7ed862115b4133ea9067fd9df5acdd9",
+    "44409:assignment:723984": "a3b2c5181a8eb353af83b279445f78b8d2f9b737981bac1a222e8effdcc9aeae",
+    "44409:assignment:723985": "b3d9d43101c50b05007cfb867ffd6e5d4e53d3a6017b7ea8b373062f5759e1ef",
+    "44409:assignment:723986": "50b554def71ac74d08fadf0f48b4a8df20b94e6bc2b9d32e156b8b1abf9950ed"
   },
   "last_check": "2026-09-06T13:38:44.898230+00:00",
   "reminders": {
@@ -127,6 +135,7 @@
       }
     },
     "06c76733959ec7809c5b24a51275495d8e4a3e57017ccf4f7a08fb7336119ba5": {},
+    "13907c76308d842329c06f810ea4eac2032d6d2da62367000a022ad813838898": {},
     "1a38ebbfcd8f66eb595ef5572f95fd0e595518fcbcc2c517a55cc108d639c746": {
       "1": {
         "complete": true,
@@ -227,6 +236,7 @@
         "email": "sent"
       }
     },
+    "21347db4a3e9788a7fe27834686332d3f27770fd4189894011a5391aeaf48216": {},
     "21fe85573b62b3aeb2a390dd9afd241378157bfb47db740de5159bcdcd4df6e3": {},
     "226b549e272d2834a5269616ec7fc6b8917f40345a1c6b2d697e2ec196cd4944": {
       "1": {
@@ -254,6 +264,13 @@
       "7": {
         "complete": true,
         "discord": "1551274169549983814",
+        "email": "sent"
+      }
+    },
+    "310534202e6b6fbbf3ea0bc451a4adf7990f74d67b50bd5fe3e2d8c468af1ae1": {
+      "7": {
+        "complete": true,
+        "discord": "1559897741553958935",
         "email": "sent"
       }
     },
@@ -445,6 +462,13 @@
     },
     "685664efb1dba82c00b63ce2c6a0d80e3fc20c19f3bddb9101e88bd8f456e362": {},
     "6ef066175410223b90b533e79a7d4808d43f847b36b432edd6cef68f9fe4199f": {},
+    "6f363cfe1ccdf1f8a22a371d24fdcbe0e5d40a90f31a8fa9ef84eb1d00ded27e": {
+      "4": {
+        "complete": true,
+        "discord": "1559897733651767326",
+        "email": "sent"
+      }
+    },
     "6fd68b42c141c8856caa6c668f1d7d5ca9511df328ba782158db213da6342d5f": {
       "2": {
         "complete": true,
@@ -762,6 +786,13 @@
       }
     },
     "b9a1c9bfac0c1de98049e85f01481ffc6e023decac90188d257be9278dfda4c2": {},
+    "bd7e17721fdc615c22586484db40a2a725fa592a4400c4d7c75d1b0143b089f3": {
+      "7": {
+        "complete": true,
+        "discord": "1559897747782377533",
+        "email": "sent"
+      }
+    },
     "c1daa86432474cd610020ab6b62f3e6a9ddf259c2f3b34e1c1c99b3c71526814": {
       "1": {
         "complete": true,
@@ -807,6 +838,7 @@
       }
     },
     "c275f812e5d172d8e37eb80ac5d3a36bdf141e9df07f491698ff7d1c7160de40": {},
+    "c2fd11f123a5acab7362ee6eed0e85ee2c62937e54b40c19bf968ddd0a3791ca": {},
     "ca3f35aead98e3dda68cbfdf4c36039800f09b8d9c767cbbc771080099d70a31": {
       "1": {
         "complete": true,
