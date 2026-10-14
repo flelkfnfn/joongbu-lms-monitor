@@ -97,6 +97,7 @@
     "43149:assignment:718430": "a5d2609f7e972eaa84aa906a2b148512f1cd9c1d0b5ae2bf622204a29da84574",
     "43149:assignment:722337": "d3c500e6d10ef1319bb39c19adb3398479d8a47a3ce1ef7efc9c9159586690a6",
     "43149:assignment:725533": "4a6c7078275279a16d64e0cd6f7407105721dada09690a61b95c501d6a0d8b1a",
+    "43149:assignment:727609": "26547727725e67b689ecec1f646992010f276e2c786f251c735058fe7c71e1af",
     "43598:assignment:714532": "38acb8b9560a03d6fc42a093c1a0e3d2d7ba677847cedecccbfd7a4bacec3071",
     "43598:assignment:714533": "7ef981a2e0bd284bb36c997138152718c660a48fe0b6279b43045305a2473c0a",
     "43598:assignment:714534": "17791b6df9c788449a5b2b5e83ee3bfa100ff199c16a89111159d34a336cb16b",
@@ -220,6 +221,11 @@
       }
     },
     "20f65321559055f58fcec450becae3a8a03d097285e5883c89d2177aad585356": {
+      "1": {
+        "complete": true,
+        "discord": "1559977496831590462",
+        "email": "sent"
+      },
       "2": {
         "complete": true,
         "discord": "1559597007906152459",
@@ -268,6 +274,11 @@
       }
     },
     "310534202e6b6fbbf3ea0bc451a4adf7990f74d67b50bd5fe3e2d8c468af1ae1": {
+      "4": {
+        "complete": true,
+        "discord": "1559977479140020402",
+        "email": "sent"
+      },
       "7": {
         "complete": true,
         "discord": "1559897741553958935",
@@ -463,6 +474,11 @@
     "685664efb1dba82c00b63ce2c6a0d80e3fc20c19f3bddb9101e88bd8f456e362": {},
     "6ef066175410223b90b533e79a7d4808d43f847b36b432edd6cef68f9fe4199f": {},
     "6f363cfe1ccdf1f8a22a371d24fdcbe0e5d40a90f31a8fa9ef84eb1d00ded27e": {
+      "2": {
+        "complete": true,
+        "discord": "1559977473062600799",
+        "email": "sent"
+      },
       "4": {
         "complete": true,
         "discord": "1559897733651767326",
@@ -470,6 +486,11 @@
       }
     },
     "6fd68b42c141c8856caa6c668f1d7d5ca9511df328ba782158db213da6342d5f": {
+      "1": {
+        "complete": true,
+        "discord": "1559977510576328726",
+        "email": "sent"
+      },
       "2": {
         "complete": true,
         "discord": "1559597026105364540",
@@ -555,6 +576,11 @@
       }
     },
     "7d1f8b106e33c28a6f2a88d65a2f8e7e9aab6bffc21088ff16aba333b82c0e25": {
+      "1": {
+        "complete": true,
+        "discord": "1559977492763254844",
+        "email": "sent"
+      },
       "2": {
         "complete": true,
         "discord": "1559597000599535716",
@@ -655,6 +681,13 @@
         "email": "sent"
       }
     },
+    "86fc02cf6c317f8224a164f7573b79aff467d3752a10eb4ba6495c2770ef9004": {
+      "4": {
+        "complete": true,
+        "discord": "1559977522287091732",
+        "email": "sent"
+      }
+    },
     "8d8ee9b7b9d02b0d26b49660da715e7c763b4381bd0301eb0356f7f5a49de312": {},
     "a259a98c7aa1c7875128dc411b2889fe9f8abd045b09ba1c1b83ccf9746eb784": {
       "1": {
@@ -679,6 +712,11 @@
       }
     },
     "a38304a02b7fb65646ae439fa301a1745254065f7b239876bab529500d8afdc3": {
+      "1": {
+        "complete": true,
+        "discord": "1559977502208688192",
+        "email": "sent"
+      },
       "2": {
         "complete": true,
         "discord": "1559597016525439108",
@@ -787,6 +825,11 @@
     },
     "b9a1c9bfac0c1de98049e85f01481ffc6e023decac90188d257be9278dfda4c2": {},
     "bd7e17721fdc615c22586484db40a2a725fa592a4400c4d7c75d1b0143b089f3": {
+      "4": {
+        "complete": true,
+        "discord": "1559977485666492416",
+        "email": "sent"
+      },
       "7": {
         "complete": true,
         "discord": "1559897747782377533",
