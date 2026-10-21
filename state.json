@@ -90,6 +90,7 @@
     "43149:announcement:113043": "2a3a569716512288ec43814edf8c5a3af9ec4373750060bb89944ec67b516730",
     "43149:announcement:113477": "d6efbe408c873d055f344c1951ecccfe00df3ea269e6a3b2ba7225655db927b6",
     "43149:announcement:113762": "692ebbc47b1dee1ec4a01da2ce9d1cfe4b6e21ab6523882275d3a7331c5256aa",
+    "43149:announcement:113804": "85bd0e541be2b95e1256a75b007bac9402a4b7627fb6ae5c86f92ba19529ebcc",
     "43149:assignment:713993": "480651cfa9fd0e050dbb8e4b302926743a954782e0523ca43dd96cd2841d4d4c",
     "43149:assignment:713994": "a914a0667adc4a2c50f29a1f39bbf4c226baa91f11a8ff99e871aa2dc64af18d",
     "43149:assignment:713995": "f8ae7e6b5ad82cfff730878353314acf3c4bc5e564fda6a2a52674d400c17855",
@@ -520,6 +521,11 @@
       }
     },
     "649b0220e3d1d1afb30967f4cac82604b0ca7546a914e9eaa00e4ad456a0d6d0": {
+      "2": {
+        "complete": true,
+        "discord": "1562485080994086955",
+        "email": "sent"
+      },
       "4": {
         "complete": true,
         "discord": "1562327572036194364",
