@@ -65,7 +65,7 @@
     "41998:assignment:717307": "902382b74f4650ade693c4125178bc20b81e1f2875aaf5bf9520ab5eaba51728",
     "41998:assignment:717308": "20452961fb83c46bb8ef3054e9858e94bf383a197c919f55c7ad7ae4235d843c",
     "41998:assignment:719220": "c74e11bb60e1912f94a5da239bd084e6e237e805923806a1559408180042b793",
-    "41998:assignment:719222": "58ee35ad2daeb85676a40de7a0b3a80b9d1743c30e46c23c5e920ab18169731e",
+    "41998:assignment:719222": "d4609d2cd280da5df80c94156e568efeb96ddb14cde526b096b69ac48eb49dd1",
     "41998:assignment:720368": "851f885e5ad9a7a1d472dc4c00f3bfbfc1c4ca7f4ab19074338d5d0f9fdbcca3",
     "41998:assignment:720369": "b7e6807bb033346f94fed7433e8435ec9e7ab7f6289c730b34342338dd233904",
     "41998:assignment:720370": "1802286682ec9fe2e8d04283652dc78b5b881aea7722b1f70a2baaa1ba18ba7a",
@@ -128,28 +128,6 @@
   },
   "last_check": "2026-09-06T13:38:44.898230+00:00",
   "reminders": {
-    "02a3c520c80b6be6eeb49f4a24054e172ca4e4b6c0b9b9d0386250248707290d": {
-      "1": {
-        "complete": true,
-        "discord": "1550930275003932825",
-        "email": "sent"
-      },
-      "2": {
-        "complete": true,
-        "discord": "1550543495612211230",
-        "email": "sent"
-      },
-      "4": {
-        "complete": true,
-        "discord": "1549827142190370816",
-        "email": "sent"
-      },
-      "7": {
-        "complete": true,
-        "discord": "1549874990776717464",
-        "email": "sent"
-      }
-    },
     "06c76733959ec7809c5b24a51275495d8e4a3e57017ccf4f7a08fb7336119ba5": {},
     "13907c76308d842329c06f810ea4eac2032d6d2da62367000a022ad813838898": {},
     "1a38ebbfcd8f66eb595ef5572f95fd0e595518fcbcc2c517a55cc108d639c746": {
@@ -521,6 +499,11 @@
       }
     },
     "649b0220e3d1d1afb30967f4cac82604b0ca7546a914e9eaa00e4ad456a0d6d0": {
+      "1": {
+        "complete": true,
+        "discord": "1562848000106307705",
+        "email": "sent"
+      },
       "2": {
         "complete": true,
         "discord": "1562485080994086955",
@@ -602,6 +585,13 @@
       "7": {
         "complete": true,
         "discord": "1549058751288447078",
+        "email": "sent"
+      }
+    },
+    "78137ef3899f5b31a9e20da2b9dbd2aab548e0fc8dd7a8d66edc0b109e13e87d": {
+      "1": {
+        "complete": true,
+        "discord": "1562848004585689160",
         "email": "sent"
       }
     },
