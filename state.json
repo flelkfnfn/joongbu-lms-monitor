@@ -16,6 +16,9 @@
     "40492:assignment:692283": "497c75b8231eca521c700566cab2eb28ab86b23e068e43c1295450056029e54e",
     "40492:assignment:692285": "e4723dfcd796c71f07c114bf8976e01a5dbc70bb0da2b490285173b88ecb1140",
     "40492:assignment:692288": "ed184b1bcf5f8467f5e48a79571ac2c6fe531cd6c5c8a0830277b1da6a3e5b2b",
+    "40493:announcement:113833": "30ce709a0636146c3d39dcf6905dc91ea9d2a371f28d853aedd06508a828427b",
+    "40493:assignment:728702": "b4c0dec1e4ec7a90885a1c98ebd298309b49958b27cf67094c36045b56c8a2fd",
+    "40493:assignment:728704": "d6298ccf97613d4681ae76c70a2c709d7d6632e8b1f753921926dcf4ad560b45",
     "41122:announcement:112399": "1a6d2ff8d8cf9627dbb047bb904f2e7473af88077ba3dad0028e9c18ccf4d738",
     "41122:announcement:113432": "fa56e24b6ecd8efb7360a5b52a17c319eb97dfd774f5b4a691750b13d0a2949a",
     "41122:assignment:722937": "6a1d45379688f77eceba66254ff682331510c5f1e8df5b0e924d6a5f8e6c684f",
@@ -598,6 +601,11 @@
         "complete": true,
         "discord": "1562920811692556468",
         "email": "sent"
+      },
+      "4": {
+        "complete": true,
+        "discord": "1562970098535370843",
+        "email": "sent"
       }
     },
     "7945769e8e78369e971c1df1ae3fb270dc90301a17ee15ea367b806b5a4db6f5": {
@@ -1113,6 +1121,7 @@
       }
     },
     "dda8384c9a568f1fb8c9cc29098d3108da65b64d4c7cfb1b9cd0f7509cfed7fd": {},
+    "de504efbd23e5e0e50a2719c8ba8a3306acb6e3b2d164d53096563cfed29c7be": {},
     "e6056147073521c9efe60de5a32ee5fc52f149e314ca98bb7a8a9235cb1eef52": {
       "1": {
         "complete": true,
@@ -1203,6 +1212,7 @@
         "email": "sent"
       }
     },
+    "ee1073ed03ab238bce2ff0d193e5afbf9b696bde86a51229800a5dfb02f05c97": {},
     "ee174335865ba4a7a5107495608da1623541bcea262f76421dc67fa66a949437": {
       "1": {
         "complete": true,
