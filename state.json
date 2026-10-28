@@ -99,11 +99,11 @@
     "43149:assignment:713993": "480651cfa9fd0e050dbb8e4b302926743a954782e0523ca43dd96cd2841d4d4c",
     "43149:assignment:713994": "a914a0667adc4a2c50f29a1f39bbf4c226baa91f11a8ff99e871aa2dc64af18d",
     "43149:assignment:713995": "f8ae7e6b5ad82cfff730878353314acf3c4bc5e564fda6a2a52674d400c17855",
-    "43149:assignment:713998": "24387145a6e5243d22f93d629f4d29e513895d10dde4cafdc2b15b410ae37ac7",
-    "43149:assignment:713999": "4dfb2996ef7008dea4d67a667e16454d21c1dbc3070f0dc424d8b0df7bcf6660",
-    "43149:assignment:714000": "94f3e208b4ce54f898c2733aef9944bf4201a42b2b4ae76b597c11f25edafab9",
-    "43149:assignment:714001": "baa92713ec9e02bd75a90cac730cc755992947f688d741212b8f50e727e5ac4d",
-    "43149:assignment:714002": "968c998e31e5fd78c831f0399583f42ae1733aa63f9181f3be23d66c990e8458",
+    "43149:assignment:713998": "8961c0bc429a17ae6bccc94720511cad53432dee50358a16aea49bf8f6cbe3df",
+    "43149:assignment:713999": "d2c6ec2148a105981f30ad73c9b08de5518f0006c5d6f7deefba3ba830d81bbb",
+    "43149:assignment:714000": "7b47d67b84599716d28e6faccd34643985046fbae32cabbc740ddc63306e211b",
+    "43149:assignment:714001": "ccbb19838396ae53f2394b5783125a86c0fdbdcc64f3b2f35fc5e8113e885799",
+    "43149:assignment:714002": "a346817389a4a53644219d838e3693ecd944b4366984c5dbd7e99bd66a4e6ddc",
     "43149:assignment:714017": "37b2fcee4c43eae147f67ef5d6a61b8b2a8180f653217960770d8cae730e1884",
     "43149:assignment:714018": "a774a777b103e7602ae5e4489ddac0acda94db777cc134c8f5e6b7b36725e7db",
     "43149:assignment:714019": "270a25f4a4ea9c078bd980524761cee38253f2b703b3bbc1d4b218427d622976",
@@ -345,6 +345,7 @@
         "email": "sent"
       }
     },
+    "3a2aa2873f3e153f6c7b667f5e0d81cfb8b1052d9bac9fb1828c0c273346ae39": {},
     "3ac67ac547f4aa757532315ab349107f86cc3816a8b7d879d744f78d3b7936b9": {
       "1": {
         "complete": true,
@@ -426,6 +427,11 @@
     },
     "4639fa06cd777817ae811cfee405a29b8506843536e963cfd6dcd28f628a208b": {},
     "51678fe190a084489149faf7a7d7381100049035150d7c2ebd120fd75898f7e7": {
+      "4": {
+        "complete": true,
+        "discord": "1565042318833098894",
+        "email": "sent"
+      },
       "7": {
         "complete": true,
         "discord": "1564937606456807474",
@@ -720,6 +726,7 @@
       }
     },
     "818330775a7e52a0fde6bee14f9526ce5f9ea6e39efd2cd917325d6a6a09785a": {},
+    "83f61a5b352a921258489bd269268ddbcaf5465ba6e5b35e356926722bee7929": {},
     "84101ed039557ef353005b59e53b92841e0d187319ce6ba5504b547bbd29ea04": {
       "1": {
         "complete": true,
@@ -764,6 +771,7 @@
         "email": "sent"
       }
     },
+    "866bb1134290d0dab4d3d2f11ba1263c3ef77a1f899b748b4c07ad0ee4676842": {},
     "86fc02cf6c317f8224a164f7573b79aff467d3752a10eb4ba6495c2770ef9004": {
       "1": {
         "complete": true,
@@ -830,6 +838,7 @@
         "email": "sent"
       }
     },
+    "a3aecb9795ca239035d1e237dd5530cf2ec6a8e9f83e5195670d8d3dcdafa869": {},
     "a3bea3943987f6fa2fb67e56e977c8e84f29bff0ef75c715d05f0f51dafd766c": {
       "1": {
         "complete": true,
@@ -1229,6 +1238,7 @@
         "email": "sent"
       }
     },
+    "f28466f970bcf4f4dd0077f10183f625a02e62259171d7090c83109866678636": {},
     "f77360999811fc42e979bc04ed0ee706ad3ec58e4bc715b636465fc015b8ab86": {
       "1": {
         "complete": true,
@@ -1274,6 +1284,11 @@
       }
     },
     "fd38baef8975b1a2415be27b60d6d8429c43a80858ae1b07b7b0bfb8e1ac821b": {
+      "4": {
+        "complete": true,
+        "discord": "1565042312902606871",
+        "email": "sent"
+      },
       "7": {
         "complete": true,
         "discord": "1564937602715623448",
