@@ -145,6 +145,11 @@
   "reminders": {
     "06c76733959ec7809c5b24a51275495d8e4a3e57017ccf4f7a08fb7336119ba5": {},
     "0c2913c8b593d1a813bd5a796d728b3baec8d6371ab9f127768e551b483213f9": {
+      "4": {
+        "complete": true,
+        "discord": "1567589634442133604",
+        "email": "sent"
+      },
       "7": {
         "complete": true,
         "discord": "1566695787927179394",
