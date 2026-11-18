@@ -172,6 +172,11 @@
   "last_check": "2026-09-06T13:38:44.898230+00:00",
   "reminders": {
     "00cf4a06eeec9ed46c4e53221c128e788a96300f55e952212d21d3fe5e185867": {
+      "4": {
+        "complete": true,
+        "discord": "1572732930558656625",
+        "email": "sent"
+      },
       "7": {
         "complete": true,
         "discord": "1572612912613302482",
@@ -1389,6 +1394,11 @@
     "dda8384c9a568f1fb8c9cc29098d3108da65b64d4c7cfb1b9cd0f7509cfed7fd": {},
     "de504efbd23e5e0e50a2719c8ba8a3306acb6e3b2d164d53096563cfed29c7be": {},
     "e01ef1d7127cc1a16f57110d436f366bbf7fbd36763a1e71380f46f57851d92d": {
+      "4": {
+        "complete": true,
+        "discord": "1572732935465996440",
+        "email": "sent"
+      },
       "7": {
         "complete": true,
         "discord": "1571581794644660224",
